@@ -2,34 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name= "description"
+  content="My solution for the challenge profile-card-component">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main>
 
-  80K
-  Followers
+    
+    
+    
 
-  803K
-  Likes
+    <div class="container">
+      <div class="container-img">
+        <img class="container-img_background" src="images/bg-pattern-card.svg" alt="background'cyan">
+        <img class="container-img_avatar" src="images/image-victor.jpg" alt="victor">
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div  class="container-infoUser">
+        <h1 class="container-infoUser_name">Victor Crest <span class="light">26</span></h1>
+        <p class="container-infoUser_city light">London</p>
+      </div>
+      
+
+      <div class="container-stats">
+        <section class="container-stats_section">
+          <span class="bold">80K</span>
+          <p class="spacing light">Followers</p>
+        </section>
+
+        <section class="container-stats_section">
+          <span class="bold">803K</span>
+          <p class="spacing light">Likes</p>
+        </section>
+
+        <section class="container-stats_section">
+          <span class="bold">1.4K</span>
+          <p class="spacing light">Photos</p>
+        </section>
+      </div>
+
+    </div>
+  </main>
+
 </body>
 </html>

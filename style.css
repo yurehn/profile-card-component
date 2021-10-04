@@ -1,0 +1,119 @@
+:root{
+
+  /* Primary */
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --white: white;
+  --Black: black;
+
+  /* Neutral */
+  --Dark-gray: hsl(0, 0%, 59%);
+  --Pale-Dark-gray: hsl(0, 0%, 87%);
+
+  /* Body Copy */
+
+  --Font-size-1: 20px; /* (name and stats) */
+  --Font-size-2: 17px;
+  --Font-size-3: 11px;
+
+  /* Font */
+  --Family-Kumbh-Sans: 'Kumbh Sans', sans-serif;
+  --Weights-1: 700;
+  --Weights-2: 400;
+}
+.bold{
+  color: var(--Black);
+  font-weight: var(--Weights-1);
+}
+
+.light{
+  color: var(--Dark-gray);
+  font-weight: var(--Weights-2);
+}
+
+.spacing{
+  letter-spacing: 1.8px;
+}
+
+body{
+  height: 100vh;
+
+  font-family: var(--Family-Kumbh-Sans);
+  font-size: var(--Font-size-1);
+  font-weight: var(--Weights-2);
+  /* background-color: var( --Dark-cyan); */
+
+  background: url(images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg), var(--Dark-cyan);
+  background-position: top -45vh right 52vw, top 50vh left 50vw, center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container{
+  background-color: var(--white);
+  border-radius: 18px;
+  overflow: hidden;
+  
+
+}
+
+.container-img_background{
+  width:350px;
+  height: 140px;
+}
+
+.container-img{
+  position: relative;
+}
+
+.container-img_avatar{
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 60%;
+  left: 35%;
+  border: 5px solid var(--white);
+  border-radius: 100%;
+
+}
+
+.container-infoUser{
+  height: 150px;
+  font-size: var(--Font-size-3);
+  
+}
+.container-infoUser_name{
+  padding-top: 70px;
+  margin: 0px;
+  
+}
+.container-infoUser_city{
+  margin: 0px;
+  padding: 10px 0px 12px 0px;
+  font-size: var(--Font-size-2);
+}
+
+.container-stats{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid var(--Pale-Dark-gray);
+  padding: 25px 0px 25px 0px;
+
+}
+
+.container-stats_section{
+  display: inline-block;
+
+}
+
+.container-stats_section p{
+  font-size: 13px;
+  margin: 5px 0px 0px 0px;
+}
+
