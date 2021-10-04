@@ -42,7 +42,6 @@ body{
   font-family: var(--Family-Kumbh-Sans);
   font-size: var(--Font-size-1);
   font-weight: var(--Weights-2);
-  /* background-color: var( --Dark-cyan); */
 
   background: url(images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg), var(--Dark-cyan);
   background-position: top -45vh right 52vw, top 50vh left 50vw, center;
@@ -59,8 +58,6 @@ body{
   background-color: var(--white);
   border-radius: 18px;
   overflow: hidden;
-  
-
 }
 
 .container-img_background{
@@ -80,19 +77,18 @@ body{
   left: 35%;
   border: 5px solid var(--white);
   border-radius: 100%;
-
 }
 
 .container-infoUser{
   height: 150px;
   font-size: var(--Font-size-3);
-  
 }
+
 .container-infoUser_name{
   padding-top: 70px;
   margin: 0px;
-  
 }
+
 .container-infoUser_city{
   margin: 0px;
   padding: 10px 0px 12px 0px;
@@ -104,12 +100,11 @@ body{
   justify-content: space-evenly;
   border-top: 1px solid var(--Pale-Dark-gray);
   padding: 25px 0px 25px 0px;
-
+  font-weight: bold;
 }
 
 .container-stats_section{
   display: inline-block;
-
 }
 
 .container-stats_section p{
